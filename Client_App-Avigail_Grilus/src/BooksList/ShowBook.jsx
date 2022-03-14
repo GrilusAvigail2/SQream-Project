@@ -1,7 +1,13 @@
-import React, { useState,useEffect,useContext } from "react";
+﻿import React, { useState,useEffect,useContext } from "react";
 // import {Switch,Link,Route,Router} from "react-router-dom";
 import ShowBookDetails from "./ShowBookDetails";
 import './Books.css';
+
+//נכשלה לי אפילו שניסיתי בכמה דרכים וביקשתי עזרה אבל לא הצליחו לעזור לי בכך react-router-dom התקנת
+//ולכן לא עובד לי הסעיף של הצגת פרטי הספר בלחיצה עליו 
+//return אבל כן כתבתי את הקוד שצריך בשביל סעיף זה-כל הקוד שנמצא בתוך הערות ב
+//זהו קוד שגורם שכאשר לוחצים על הכותרת של הספר 
+//מוצגים כל פרטי הספר ,על ידי שמועברים לקומפוננטה של הצגת פרטי הספר 
 
 //display each book from the list 
 function ShowBook({item,onRemove}) {
